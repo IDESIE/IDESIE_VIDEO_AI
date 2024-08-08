@@ -1,0 +1,22 @@
+streamlit
+streamlit_chat
+openai
+langchain
+langchain_openai
+docarray
+langchain[docarray]
+pydantic==1.10.8
+tiktoken
+python-dotenv
+pytube
+git+https://github.com/openai/whisper.git
+transformers
+torch
+youtube-transcript-api
+langchain_pinecone
+langchain pinecone-client
+pinecone-client
+langchain_community
+sentence_transformers
+unstructured
+unstructured[local-inference]
