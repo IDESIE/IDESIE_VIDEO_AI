@@ -7,7 +7,7 @@ Para ejecutarlo en local, en nuestro PC:
 1. Instalar [Anaconda](https://docs.anaconda.com/anaconda/install/windows/)
 2. Copiar los archivos de la rama `local_PC_version` en el ordenador, por ejemplo en `C:\Users\USUARIO\ia`
 3. Editar el archivo `.env` y rellenar las API keys
-4. Ejecutar Anaconda Prompt y situarse en la carpeta donde están los archivos, por ejemplo: `cd ia` para ir a la subcarpeta `ia` del directorio donde estamos. Otro ejemplo: `cd C:\Users\parag\ia`
+4. Ejecutar Anaconda Prompt y situarse en la carpeta donde están los archivos, por ejemplo: `cd ia` para ir a la subcarpeta `ia` del directorio donde estamos. Otro ejemplo: `cd C:\Users\USUARIO\ia`
 5. Instalar los requisitos `pip install -r requirements.txt`
 
 ## Ejecución
