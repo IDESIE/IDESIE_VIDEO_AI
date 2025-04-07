@@ -4,7 +4,7 @@ import re
 import os
 import hashlib
 import youtube_transcript_api
-import getpass
+# import getpass
 
 from pytube import YouTube
 from youtube_transcript_api import YouTubeTranscriptApi
@@ -47,8 +47,8 @@ print("'Secretos' cargados correctamente")
 ################################
 
 # Text Splitter
-chunk_size: int = 8000
-chunk_overlap: int = 200
+chunk_size: int = 1500
+chunk_overlap: int = 300
 
 # LLM (OpenAI)
 model_name: str = "gpt-4o-mini"
