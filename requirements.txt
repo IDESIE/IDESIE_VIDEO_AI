@@ -4,9 +4,9 @@ pandas
 openai
 pytube
 youtube_transcript_api
-pinecone
+#pinecone
 pinecone-client[grpc]
-pinecone-client
+#pinecone-client
 langchain
 langchain-community
 langchain-pinecone
