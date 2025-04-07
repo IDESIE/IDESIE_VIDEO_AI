@@ -153,7 +153,7 @@ else:
 
 
 ## Creamos el indexador de LangChain (el generador de embeddings de OpenAI), para transformar texto a su representación vectorial:
-#embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY, model=embedding_model)
+# embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY, model=embedding_model)
 #
 #
 ## Generamos los embeddings y los subimos al vector store de Pinecone
