@@ -1,0 +1,15 @@
+streamlit
+#streamlit-scrollable-textbox
+pandas
+openai
+pytube
+youtube_transcript_api
+pinecone
+pinecone-client[grpc]
+pinecone-client
+langchain
+langchain-community
+langchain-pinecone
+langchain-openai
+
+#sqlite3==3.35.0
