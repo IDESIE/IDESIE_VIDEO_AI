@@ -13,9 +13,9 @@ import pytube
 # Secretos
 ################################
 
-OPENAI_API_KEY = st.secrets.api_openai
-PINECONE_API_KEY = st.secrets.api_pinecone
-LANCHAIN_API_KEY = st.secrets.api_langchain
+OPENAI_API_KEY = st.secrets.IDESIE_OPENAI_KEY
+PINECONE_API_KEY = st.secrets.IDESIE_PINECONE_KEY
+#LANCHAIN_API_KEY = st.secrets.api_langchain
 print("'Secretos' cargados correctamente")
 
 
