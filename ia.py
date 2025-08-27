@@ -32,8 +32,8 @@ YOUTUBE_VIDEO_URL : str = "https://www.youtube.com/watch?v=dgZaIk3iFhc"       # 
 # Secretos
 ################################
 
-OPENAI_API_KEY = st.secrets["api_openai"]
-PINECONE_API_KEY = st.secrets["api_pinecone"]
+OPENAI_API_KEY = st.secrets["IDESIE_OPENAI_KEY"]
+PINECONE_API_KEY = st.secrets["IDESIE_PINECONE_KEY"]
 
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 os.environ["PINECONE_API_KEY"] = PINECONE_API_KEY
@@ -392,3 +392,4 @@ if prompt := st.chat_input("Escribe tu pregunta"):
 #
 #
 ###############################
+
